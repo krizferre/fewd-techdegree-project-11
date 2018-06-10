@@ -15,8 +15,6 @@ class App extends Component {
   // All routes re-use one component which is Container, just depends on the keyword/category being searched
   // Home path '/' is redirected to '/cats' to initially have photos to display
   render() {
-    // <Route exact path="/search/:keyword" render={ ({match}) => <Container title='Results for ' match={match} />} />
-
     return (
       <BrowserRouter>
         <Switch>
