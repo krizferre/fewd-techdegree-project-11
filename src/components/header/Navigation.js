@@ -7,7 +7,7 @@ const Navigation = props => (
     <ul>
       <li>
         <NavLink 
-          to='/cats' 
+          to={process.env.PUBLIC_URL + '/cats'} 
           activeStyle={{ background: 'tomato' }} 
           onClick={ () => props.performSearch('cats', true) }>
           Cats
@@ -15,7 +15,7 @@ const Navigation = props => (
       </li>
       <li>
         <NavLink 
-          to='/dogs' 
+          to={process.env.PUBLIC_URL + '/dogs'} 
           activeStyle={{ background: 'tomato' }} 
           onClick={ () => props.performSearch('dogs', true) }>
           Dogs
@@ -23,7 +23,7 @@ const Navigation = props => (
       </li>
       <li>
         <NavLink 
-          to='/birds' 
+          to={process.env.PUBLIC_URL + '/birds'}
           activeStyle={{ background: 'tomato' }} 
           onClick={ () => props.performSearch('birds', true) }>
           Birds

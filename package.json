@@ -2,7 +2,7 @@
   "name": "react-flickr-gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://krizferre.github.io/fewd-techdegree-project-11/",
+  "homepage": "https://krizferre.github.io/fewd-techdegree-project-11",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^1.2.0",

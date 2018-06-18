@@ -18,7 +18,7 @@ class Form extends Component {
     e.preventDefault();
     this.props.onSearch(query, true);
     e.currentTarget.reset();
-    this.props.history.push(`/search/${query}`); // when searching, redirect user to search route
+    this.props.history.push(`${process.env.PUBLIC_URL}/search/${query}`); // when searching, redirect user to search route
   }
 
   render() {
